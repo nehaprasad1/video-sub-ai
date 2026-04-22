@@ -1,5 +1,5 @@
 import ffmpeg
-def extract_audio(video_path, audio_path="audio.wav"):
+def extract_audio(video_path, audio_path="../input/audio.wav"):
     (
         ffmpeg
         .input(video_path)
