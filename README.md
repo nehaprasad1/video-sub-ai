@@ -28,5 +28,3 @@ Python · FastAPI · Whisper · FFmpeg · HTML/CSS/JS
 
 ---
 
-## 👨‍💻 Author
-AI + Full Stack Project
