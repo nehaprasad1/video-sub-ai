@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #00ffcc;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* VIDEO WRAPPER */
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* VIDEO FIX */
+video {
+  width: 700px;
+  max-width: 90%;
+  border-radius: 10px;
+  display: block;
+  background: black;
+}
+
+/* SUBTITLE OVERLAY */
+#subtitleBox {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #00ffcc;
+  text-shadow: 2px 2px 8px black;
+  pointer-events: none;
+  padding: 5px;
+}

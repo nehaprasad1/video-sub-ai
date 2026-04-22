@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Sub AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎬 Video Sub AI</h1>
+
+<div class="container">
+
+  <input type="file" id="videoInput" accept="video/*" />
+  <button onclick="uploadVideo()">Upload Video</button>
+
+  <!-- VIDEO + SUBTITLE OVERLAY -->
+  <div class="video-wrapper">
+    <video id="videoPlayer" controls></video>
+    <div id="subtitleBox"></div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
