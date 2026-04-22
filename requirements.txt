@@ -1,4 +1,7 @@
 ffmpeg-python
 faster-whisper
 tqdm
+fastapi
+uvicorn
 numpy
+python-multipart
